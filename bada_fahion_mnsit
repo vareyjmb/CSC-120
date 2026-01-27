@@ -24,4 +24,19 @@ An epoch is one complete pass of the entire training dataset through the neural 
 During each epoch, the model updates its weights to improve accuracy.
 Multiple epochs are used to help the model learn better from the data.
 
+5. Compare the predicted label and actual label for the first test image.
+The predicted label is the class chosen by the model for the first test image.
+The actual label is the true class provided in the dataset.
+If both labels match, the prediction is correct; if not, it is a misclassification.
+
+6. What could be done to improve the model’s accuracy?
+
+Add more hidden layers or neurons to increase model capacity.
+
+Train for more epochs or adjust the learning rate.
+
+Use regularization techniques like dropout.
+
+Apply data augmentation or use a convolutional neural network (CNN).
+
 link for google collab(https://colab.research.google.com/drive/1eGomxfjQZAC3mVwNXL0eFS3HwuaXjmF-#scrollTo=EDF3F5Q_VTiN)
