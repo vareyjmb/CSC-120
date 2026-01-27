@@ -1,0 +1,27 @@
+1. What is the Fashion MNIST dataset?
+
+The Fashion MNIST dataset is a collection of grayscale images of clothing items such as shirts, shoes, bags, and trousers.
+It contains 60,000 training images and 10,000 test images, each with a size of 28×28 pixels.
+It is commonly used to train and test machine learning and neural network models for image classification.
+
+2. Why do we normalize image pixel values before training?
+
+We normalize image pixel values to scale them to a smaller range, usually between 0 and 1.
+This helps the neural network learn faster and more accurately.
+Normalization also prevents large pixel values from dominating the learning process and improves model stability.
+
+3. List the layers used in the neural network and their functions.
+
+Flatten Layer – Converts the 2D image (28×28) into a 1D array of pixels.
+
+Dense (Hidden) Layer – Learns patterns and features from the input data using neurons and activation functions.
+
+Dense (Output) Layer – Produces the final predictions, one for each clothing category.
+
+4. What does an epoch mean in model training?
+
+An epoch is one complete pass of the entire training dataset through the neural network.
+During each epoch, the model updates its weights to improve accuracy.
+Multiple epochs are used to help the model learn better from the data.
+
+link for google collab(https://colab.research.google.com/drive/1eGomxfjQZAC3mVwNXL0eFS3HwuaXjmF-#scrollTo=EDF3F5Q_VTiN)
